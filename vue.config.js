@@ -2,7 +2,9 @@ module.exports = {
   publicPath: './',
   lintOnSave: false,
   devServer: {
+    host: '127.0.0.1',
     disableHostCheck: true,
+    port: 9998
   }
   // devServer: { 
   //   // host: '0.0.0.0',
